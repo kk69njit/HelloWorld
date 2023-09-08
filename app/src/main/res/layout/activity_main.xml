@@ -4,35 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/cyberAlley"
     tools:context=".MainActivity">
+
+    <com.github.matteobattilana.weather.WeatherView
+        android:id="@+id/weather_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/introTextView"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginHorizontal="64dp"
         android:text="@string/karan_intro"
-        android:layout_marginTop="48dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:textAlignment="center"
+        android:layout_marginTop="155dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dogImageView" />
+        app:layout_constraintTop_toBottomOf="@+id/cloudImageView" />
+
 
     <ImageView
-        android:id="@+id/dogImageView"
+        android:id="@+id/cloudImageView"
+        android:contentDescription="@string/cloudContentDescription"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:scaleType="centerCrop"
-        android:layout_marginTop="48dp"
-        app:srcCompat="@drawable/goldenretriever" />
-
+        app:srcCompat="@drawable/cyberCloud"/>
     <Button
         android:id="@+id/helloButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
         android:text="@string/button_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
