@@ -44,7 +44,7 @@ The challenge mostly came from finding where exactly to fit the different pieces
 
 * Credit to DevilAkuma on Zedge for the background image,
 * Credit to CityPNG for the Neon Cloud icon.
-* Credit to MatteoBattilana for [WeatherView](https://github.com/MatteoBattilana/WeatherView)
+* Credit to MatteoBattilana for [WeatherView](https://github.com/MatteoBattilana/WeatherView).
 
 ## License
 
