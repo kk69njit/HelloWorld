@@ -17,6 +17,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [X] Customized colors
+* [X] Customized text
 * [X] Background image
 * [X] Rain particles
 
