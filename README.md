@@ -2,9 +2,9 @@
 
 Submitted by: **Karan Komal**
 
-**HelloWorld** is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
+**Hello World** is an Android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
 
-Time spent: **2** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -14,9 +14,11 @@ The following **required** functionality is completed:
 * [X] Button displayed on screen
 * [X] Toast with message appears when button is pressed 
 
-<!-- The following **optional** features are implemented:
+The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality! -->
+* [X] Customized colors
+* [X] Background image
+* [X] Rain particles
 
 ## Video Walkthrough
 
@@ -25,7 +27,7 @@ Here's a walkthrough of implemented features:
 <img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with [LiceCap](http://www.cockos.com/licecap/). 
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows. 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -33,11 +35,19 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+### **Describe any challenges encountered while building the app:**
+
+The challenge mostly came from finding where exactly to fit the different pieces of the app. Additionally, implementing the weather particles was a bit confusing at first as well. Once that was sorted though, it was just a matter of making sure everything looked relatively nice.
+
+## Credits
+
+* Credit to DevilAkuma on Zedge for the background image,
+* Credit to CityPNG for the Neon Cloud icon.
+* Credit to MatteoBattilana for [WeatherView](https://github.com/MatteoBattilana/WeatherView)
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2023 Karan Komal
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
